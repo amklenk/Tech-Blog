@@ -1,0 +1,25 @@
+{
+  "name": "tech-blog",
+  "version": "1.0.0",
+  "description": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amklenk/Tech-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amklenk/Tech-Blog/issues"
+  },
+  "homepage": "https://github.com/amklenk/Tech-Blog#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.21.2"
+  }
+}
