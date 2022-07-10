@@ -1,6 +1,7 @@
 //require
 const User = require('./User');
 const Post = require('./Post');
+const Comment = require('./Comment');
 
 //associations
 //joins User and Post
@@ -16,4 +17,4 @@ Post.belongsTo(User, {
 
 
 //exports
-module.exports = { User, Post }
+module.exports = { User, Post, Comment }
