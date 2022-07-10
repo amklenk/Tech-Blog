@@ -19,7 +19,7 @@ const commentData = [
   },
   {
     comment_text: "Handlebars partials and helpers are awesome. Can't wait to learn more!",
-    user_id: 2,
+    user_id: 3,
     post_id: 3,
   },
   {
@@ -29,9 +29,29 @@ const commentData = [
   },
   {
     comment_text: "That's so cool! I can't wait to try it out!",
-    user_id: 1,
+    user_id: 2,
     post_id: 4,
   },
+  {
+    comment_text: "I'm starting to get Sequelize the more I use it.",
+    user_id: 1,
+    post_id: 5,
+  },
+  {
+    comment_text: "So much easier to use associations and JS to join tables!",
+    user_id: 2,
+    post_id: 5,
+  },
+  {
+    comment_text: "I've been using Sequelize with MySQL queries. Hoping it's not too hard to do the same with MariaDB!",
+    user_id: 3,
+    post_id: 5,
+  },
+  {
+    comment_text: "Love RESTful APIs! Full-Stack all the way!",
+    user_id: 2,
+    post_id: 6,
+  }
 ];
 
 const seedComments = () => Comment.bulkCreate(commentData);
