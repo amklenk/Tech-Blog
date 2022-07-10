@@ -25,7 +25,7 @@ const postData = [
     },
     {
         title: "MySQL Queries or Sequelize?",
-        text: "If you understand how to use MySQL queries to create databases and tables, populate the tables, update them, join them, and delete parts (or all) of them, why use Sequelize? Sequelize is an ORM, it helps us write directions for how we want our tables formatted as objects in JavaScript. Then we create the associations and use RESTful API routes to interact with the database. Why would we want to do this? With Sequelize, we can format our data easier. We can display that data on the fron-end. It allows for migrations.",
+        text: "If you understand how to use MySQL queries to create databases and tables, populate the tables, update them, join them, and delete parts (or all) of them, why use Sequelize? Sequelize is an ORM, it helps us write directions for how we want our tables formatted as objects in JavaScript. Then we create the associations and use RESTful API routes to interact with the database. Why would we want to do this? With Sequelize, we can format our data easier. We can display that data on the front-end. It allows for migrations.",
         user_id: 4,
     },
     {
