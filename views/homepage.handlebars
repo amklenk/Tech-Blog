@@ -1,15 +1,17 @@
 <ul class="post-list">
-  <li>
-    <article class="post">
-     <div class="card text-white w-80 p-2 mb-2 post" id="post1">
-    <div class="card-body">
-        <h4 class="card-title">{{title}}</h4>
-        <h5 class="card-subtitle mb-2 text-muted">Posted by: {{user.username}} on
-        {{created_at}} </h5>
-        <p class="card-text">{{text}}</p>
-        <a href="/post/{{id}}">{{comments.length}} comment(s)</a>
-    </div>
-</div>
-    </article>
-  </li>
+    {{#each posts as |post|}}
+    <li>
+        <article class="post">
+            <div class="card text-white w-80 p-2 mb-2 post" id="post1">
+                <div class="card-body">
+                    <h4 class="card-title">{{post.title}}</h4>
+                    <h5 class="card-subtitle mb-2 text-muted">Posted by: {{post.user.username}} on
+                        {{post.created_at}} </h5>
+                    <p class="card-text">{{post.text}}</p>
+                    <a href="/post/{{post.id}}">{{post.comments.length}} comment(s)</a>
+                </div>
+            </div>
+        </article>
+    </li>
+    {{/each}}
 </ul>
