@@ -8,7 +8,7 @@ const postData = [
 	    user_id: 1,
     },
     {
-        title: "What is an ORM? It’s important to find out!",
+        title: "What is an ORM? It's important to find out!",
         text: "An ORM stands for a Object Relational Mapper. It is used to translate between our routes in JavaScript and databases like MySQL. Sequelize is an ORM that you can use to create objects that translate into MySQL tables!",
         user_id: 1,
         
