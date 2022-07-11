@@ -9,6 +9,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+li{
+    list-style: none;
+}
+
 input{ 
     margin-left: 5px;
 }
