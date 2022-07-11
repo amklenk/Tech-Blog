@@ -1,8 +1,8 @@
-<ul class="post-list">
+<ul class="post-list container">
     {{#each posts as |post|}}
-    <li>
+    <li class="row mb-2">
         <article class="post">
-            <div class="card text-white w-80 p-2 mb-2 post" id="post1">
+            <div class="card text-white w-80 p-2 post" id="post1">
                 <div class="card-body">
                     <h4 class="card-title">{{post.title}}</h4>
                     <h5 class="card-subtitle mb-2 text-muted">Posted by: {{post.user.username}} on
