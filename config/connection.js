@@ -2,7 +2,7 @@
 const Sequelize = require('sequelize');
 require('dotenv').config();
 
-//connection to db using .env variables, or JAWS DB
+//connection to DB via env variables or JAWSDB variables
 let sequelize;
 
 if (process.env.JAWSDB_URL) {
@@ -15,5 +15,4 @@ if (process.env.JAWSDB_URL) {
   });
 }
 
-//export
 module.exports = sequelize;
