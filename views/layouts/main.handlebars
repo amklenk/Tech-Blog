@@ -26,8 +26,8 @@
                 <div class="col mt-3 text-end">
                     <nav>
                         <a href="/" class="text-decoration-none text-white navl">Home</a>
-                        {{#if loggedIn}}
                         <a href="/dashboard" id="dashboard" class="navl text-decoration-none">Dashboard</a>
+                        {{#if loggedIn}}
                         <button id="logout" class="navl">Logout</button>
                         {{else}}
                         <a href="/login" class="text-decoration-none text-white navl">Login</a>
