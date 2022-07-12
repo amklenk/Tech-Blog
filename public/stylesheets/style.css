@@ -61,12 +61,16 @@ background: rgb(28,192,55);
 background: linear-gradient(248deg, rgba(28,192,55,1) 0%, rgba(77,183,241,1) 22%, rgba(58,55,166,1) 59%, rgba(39,16,155,1) 77%, rgba(158,11,153,1) 100%);
 }
 
-#logout, #signup, #login, #create, #comment, #save, #delete {
+#logout, #dashboard, #signup, #login, #create, #comment, #save, #delete, #edit, #edit {
     background-color: rgb(0,0,0);
     color: white;
 }
 
-#signup, #login, #create, #comment, #save, #delete {
+#signup, #login, #create, #comment, #save, #delete, #edit {
     border: solid 1px #4db7f1;
     border-radius: 2px;
+}
+
+#signup:hover , #login:hover, #create:hover , #comment:hover, #save:hover, #delete:hover, #edit:hover {
+    box-shadow: 3px 2px white;
 }
